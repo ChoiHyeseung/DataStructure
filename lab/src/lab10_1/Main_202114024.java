@@ -35,7 +35,7 @@ class MatrixGraph {
 	// 그래프에 간선 <v1, v2> 삽입
 	public void insertEdge(int v1, int v2) {   
 		if(v1<0 || v1>=n || v2<0 || v2>=n)  
-			System.out.println("그래프에 없는 정점입니다!!");
+			System.out.println("그래프에 없는 정점입니다!");
 		else {
 				matrix[v1][v2] = 1;
 			}
