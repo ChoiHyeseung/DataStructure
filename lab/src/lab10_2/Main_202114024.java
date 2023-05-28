@@ -30,12 +30,12 @@ class ListGraph {
 	private Node[] list;
 	private int n;
 
-	public ListGraph(int n) {
+	public ListGraph(int n) { //생성자
 		list = new Node[n];
 		this.n = n;
 	}
 
-	public void insertEdge(int v1, int v2) {
+	public void insertEdge(int v1, int v2) { //간선 삽입
 		Node newNode = new Node();
 		newNode.vertex = v2;
 		newNode.link = list[v1];
